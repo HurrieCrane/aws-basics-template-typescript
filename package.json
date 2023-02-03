@@ -1,0 +1,17 @@
+{
+  "name": "aws-basics-template-typescript",
+  "version": "1.0.0",
+  "description": "A template for a Node lambda monorepo type thing",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  },
+  "workspaces": [
+    "lambdas/*"
+  ]
+}
