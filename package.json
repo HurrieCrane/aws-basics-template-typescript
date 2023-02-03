@@ -5,7 +5,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "local": "lerna exec npm run build:local && docker compose up"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

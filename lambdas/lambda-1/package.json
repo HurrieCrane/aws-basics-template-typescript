@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "npm run clean && mkdir ./dist && cp package.json ./dist/package.json && webpack -w",
+    "build:local": "npm run clean && mkdir ./dist && cp package.json ./dist/package.json && webpack",
     "build:prod": "npm run clean && mkdir ./dist && cp package.json ./dist/package.json && NODE_ENV=${NODE_ENV:-production} webpack",
     "clean": "rm -rf dist/",
     "lint:ci": "eslint -c .eslintrc -f checkstyle . > checkstyle-result.xml",

@@ -8,6 +8,7 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "baseUrl": ".",
+    "paths": {}
   },
   "include": ["./**/*"],
   "paths": {
